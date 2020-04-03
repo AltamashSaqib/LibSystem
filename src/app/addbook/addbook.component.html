@@ -1,20 +1,5 @@
 
 <h1 class="center">ADD BOOK DETAILS</h1><br>
-
-<!-- <div ng-app="myApp" 
-        
-        ng-init="list=[
-            { isbn:'1234567891',title:'Jungle book',author:'Benjamin', price:65 }]"
-            
-        ng-controller="myController">
-
-<div class="container">   
-ISBN: <input type="text" ng-model="isbn"><br><br>
-Title: <input type="text" ng-model="title"><br><br>
-Author: <input type="text" ng-model="author"><br><br>
-Price: <input type="text" ng-model="price"><br><br>
-<button ng-click="addbook()" class="tabbutton1">Save</button> -->
-
 <div class="container">
     <form [formGroup]="dynamicForm" (ngSubmit)="onSubmit()">
         <div class="form-group col-6">
